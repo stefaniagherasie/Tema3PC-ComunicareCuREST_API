@@ -6,6 +6,7 @@ implementand un client web care sa interactioneze cu un server. Aplicatia
 ii permite clientului sa interactioneze cu serverul printr-o serie de comenzi
 date de la tastatura.
 
+##### IMPLEMENTARE
 Am pornit de la structura din laboratorul 10, citind comenzi de la tastatura 
 intr-o structura repetitiva. Pentru fiecare tip de comanda se deschide 
 conexiunea si se construieste un mesaj de tip GET, POST sau DELETE.
@@ -56,7 +57,9 @@ desi userul nu mai este logat.
 Comanda "exit" elibereaza spatiul alocat si inchide clientul.
 
 
-- MENTIUNI
+#### MENTIUNI
 
-Cand se greseste un parametru la introducerea de informatii(de ex la login sau 
+- Cand se greseste un parametru la introducerea de informatii(de ex la login sau 
 add_book), nerespectandu-se formatul, comanda trebuie introdusa de la inceput.
+- Pentru parsarea inputului in format JSON astfel incat sa trimitem o cerere valida
+la server am folosi functiile parson de la: https://github.com/kgabis/parson
