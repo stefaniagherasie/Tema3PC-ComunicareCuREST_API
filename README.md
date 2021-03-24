@@ -56,7 +56,6 @@ desi userul nu mai este logat.
 
 Comanda "exit" elibereaza spatiul alocat si inchide clientul.
 
-
 #### MENTIUNI
 
 - Cand se greseste un parametru la introducerea de informatii(de ex la login sau 
