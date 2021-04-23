@@ -61,4 +61,4 @@ desi userul nu mai este logat.
 - Cand se greseste un parametru la introducerea de informatii(de ex la login sau 
 add_book), nerespectandu-se formatul, comanda trebuie introdusa de la inceput.
 - Pentru parsarea inputului in format JSON astfel incat sa trimitem o cerere valida
-la server am folosi functiile parson de la: https://github.com/kgabis/parson
+la server am folosi functiile parson de la: https://github.com/kgabis/parson 
